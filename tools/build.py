@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://centuryarcade.org/gridspotting/"
 TALK = "https://www.youtube.com/watch?v=KkjbiKiHQyE"
+XREF = "https://crosswordreference.com/"   # The Cross(word) Reference: the `crossref` column is its puzzle id
 
 CATEGORIES = {
     "real": "Real grids from real sources",
@@ -43,6 +44,7 @@ a { color: var(--accent); }
 figure { margin: 20px 0; }
 figure img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
 .match { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; margin: 16px 0; }
+.match a.xref { font: 14px/1.6 system-ui, sans-serif; text-decoration: none; }
 ul.posts { list-style: none; padding: 0; }
 ul.posts li { padding: 16px 0; border-bottom: 1px solid var(--rule); display: flex; gap: 16px; }
 ul.posts img { width: 140px; height: 90px; object-fit: cover; flex: none; border: 1px solid var(--rule); }
@@ -114,8 +116,10 @@ def main():
             if r["publication"]:
                 by = f" by {e(r['constructor'])}" if r["constructor"] else ""
                 t = f" &ldquo;{e(r['puzzle_title'])}&rdquo;" if r["puzzle_title"] else ""
+                xref = (f'<br><a class="xref" href="{XREF}puzzle/{e(r["crossref"])}">See this puzzle at '
+                        f'The Cross(word) Reference &rarr;</a>') if r["crossref"] else ""
                 body.append(f'<div class="match">Crossword{t}{by}, <b>{e(r["publication"])}</b>, '
-                            f'{e(fmt_date(r["pub_date"]))}</div>')
+                            f'{e(fmt_date(r["pub_date"]))}{xref}</div>')
             if r["note"]:
                 body.append(f'<p class="note">{e(r["note"])}</p>')
             for img in r["images"].split():
@@ -128,6 +132,7 @@ def main():
                 "id": sid, "url": f"{BASE}posts/{key}.html#{sid}",
                 **{k: r[k] for k in ("category", "work", "episode", "air_date", "publication",
                                      "pub_date", "constructor", "puzzle_title", "note") if r[k]},
+                **({"crossref_url": f"{XREF}puzzle/{r['crossref']}"} if r["crossref"] else {}),
             })
         (ROOT / "posts" / f"{key}.html").write_text(page(first["title"], "\n".join(body), 1), encoding="utf8")
 

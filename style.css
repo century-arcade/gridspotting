@@ -18,6 +18,7 @@ a { color: var(--accent); }
 figure { margin: 20px 0; }
 figure img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
 .match { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; margin: 16px 0; }
+.match a.xref { font: 14px/1.6 system-ui, sans-serif; text-decoration: none; }
 ul.posts { list-style: none; padding: 0; }
 ul.posts li { padding: 16px 0; border-bottom: 1px solid var(--rule); display: flex; gap: 16px; }
 ul.posts img { width: 140px; height: 90px; object-fit: cover; flex: none; border: 1px solid var(--rule); }

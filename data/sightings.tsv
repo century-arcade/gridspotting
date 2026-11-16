@@ -1,15 +1,15 @@
-post	title	category	work	episode	air_date	publication	pub_date	constructor	puzzle_title	images	note
-lost-2006	Lost, "A Tale of Two Cities"	real	Lost	S3E1, "A Tale of Two Cities"	2006-10-04	Los Angeles Times	2006-07-31	George Shayler		image35.jpg image8.jpg	
-sideways-2004	Sideways	real	Sideways (2004)			New York Times	2003-09-27	Craig Kasper		image15.jpg image14.jpg	
-sopranos-2004	The Sopranos, "Where's Johnny?"	real	The Sopranos	S5E3, "Where's Johnny?"	2004-03-21	Courier-News (Bridgewater, NJ)	2003-04-27	Josiah Breward (Wayne Robert Williams)		image5.jpg image23.jpg image19.jpg	Tribune Media Services
-freshman-1925	The Freshman (1925)	real	The Freshman (1925)			Los Angeles Herald	1925-03-01			image11.png image4.jpg image37.jpg image34.jpg image38.jpg	
-glass-onion-2022	Glass Onion: A Knives Out Mystery	real	Glass Onion: A Knives Out Mystery (2022)			New York Times	2022-06-16	Parker Higgins & Ross Trudeau		image32.jpg image3.jpg image21.jpg	
-glass-onion-2022	Glass Onion: A Knives Out Mystery	real	Glass Onion: A Knives Out Mystery (2022)			New York Times	2022-06-17	Pao Roy		image1.jpg image28.jpg	
-elsbeth-2026	Elsbeth, "Murder Six Across"	real	Elsbeth	S3E13, "Murder Six Across"	2026-03-12	New York Times	2025-12-01	Hannah Binney		image22.png image7.png	
-elsbeth-2026	Elsbeth, "Murder Six Across"	real	Elsbeth	S3E13, "Murder Six Across"	2026-03-12	New York Times	2025-12-03	Victor Barocas		image10.png image17.png	
-john-wick-3	John Wick: Chapter 3 - Parabellum	prop	John Wick: Chapter 3 - Parabellum (2019)			New York Times	2018-05-18	Ryan McCarty		image9.png image18.png image12.png	Real grid turned into a prop newspaper
-stock-grids	Grids from stock-image sources	stock	Modern Family	S8E4, "Weathering Heights"	2016-10-12					image20.png	
-stock-grids	Grids from stock-image sources	stock	US Cellular commercial	"Holidays: Four Free Phones"	2024-11-07					image26.png	
-stock-grids	Grids from stock-image sources	stock	Poker Face	S2E9, "A New Lease on Death"	2025-06-19					image25.png	
-stock-grids	Grids from stock-image sources	stock	Saturday Night Live	Season 51 opening montage	2025-10-04					image30.png image31.png	
-simpsons-2008	The Simpsons, "Homer and Lisa Exchange Cross Words"	created	The Simpsons	S20E6, "Homer and Lisa Exchange Cross Words"	2008-11-16	New York Times	2008-11-16	Merl Reagle	Sounds Like Somebody I Know	image27.png image24.png image29.png image33.png image36.png	Grid created for the episode and run in the Times the same day
+post	title	category	work	episode	air_date	publication	pub_date	constructor	puzzle_title	crossref	images	note
+lost-2006	"Lost, ""A Tale of Two Cities"""	real	Lost	"S3E1, ""A Tale of Two Cities"""	2006-10-04	Los Angeles Times	2006-07-31	George Shayler		latimes/lat2006-07-31	image35.jpg image8.jpg	
+sideways-2004	Sideways	real	Sideways (2004)			New York Times	2003-09-27	Craig Kasper		nytimes/nyt2003-09-27	image15.jpg image14.jpg	
+sopranos-2004	"The Sopranos, ""Where's Johnny?"""	real	The Sopranos	"S5E3, ""Where's Johnny?"""	2004-03-21	Courier-News (Bridgewater, NJ)	2003-04-27	Josiah Breward (Wayne Robert Williams)			image5.jpg image23.jpg image19.jpg	Tribune Media Services
+freshman-1925	The Freshman (1925)	real	The Freshman (1925)			Los Angeles Herald	1925-03-01				image11.png image4.jpg image37.jpg image34.jpg image38.jpg	
+glass-onion-2022	Glass Onion: A Knives Out Mystery	real	Glass Onion: A Knives Out Mystery (2022)			New York Times	2022-06-16	Parker Higgins & Ross Trudeau		nytimes/nyt2022-06-16	image32.jpg image3.jpg image21.jpg	
+glass-onion-2022	Glass Onion: A Knives Out Mystery	real	Glass Onion: A Knives Out Mystery (2022)			New York Times	2022-06-17	Pao Roy		nytimes/nyt2022-06-17	image1.jpg image28.jpg	
+elsbeth-2026	"Elsbeth, ""Murder Six Across"""	real	Elsbeth	"S3E13, ""Murder Six Across"""	2026-03-12	New York Times	2025-12-01	Hannah Binney		nytimes/nyt2025-12-01	image22.png image7.png	
+elsbeth-2026	"Elsbeth, ""Murder Six Across"""	real	Elsbeth	"S3E13, ""Murder Six Across"""	2026-03-12	New York Times	2025-12-03	Victor Barocas		nytimes/nyt2025-12-03	image10.png image17.png	
+john-wick-3	John Wick: Chapter 3 - Parabellum	prop	John Wick: Chapter 3 - Parabellum (2019)			New York Times	2018-05-18	Ryan McCarty		nytimes/nyt2018-05-18	image9.png image18.png image12.png	Real grid turned into a prop newspaper
+stock-grids	Grids from stock-image sources	stock	Modern Family	"S8E4, ""Weathering Heights"""	2016-10-12						image20.png	
+stock-grids	Grids from stock-image sources	stock	US Cellular commercial	Holidays: Four Free Phones	2024-11-07						image26.png	
+stock-grids	Grids from stock-image sources	stock	Poker Face	"S2E9, ""A New Lease on Death"""	2025-06-19						image25.png	
+stock-grids	Grids from stock-image sources	stock	Saturday Night Live	Season 51 opening montage	2025-10-04						image30.png image31.png	
+simpsons-2008	"The Simpsons, ""Homer and Lisa Exchange Cross Words"""	created	The Simpsons	"S20E6, ""Homer and Lisa Exchange Cross Words"""	2008-11-16	New York Times	2008-11-16	Merl Reagle	Sounds Like Somebody I Know	nytimes/nyt2008-11-16	image27.png image24.png image29.png image33.png image36.png	Grid created for the episode and run in the Times the same day

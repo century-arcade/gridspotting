@@ -8,7 +8,8 @@
   "air_date": "2006-10-04",
   "publication": "Los Angeles Times",
   "pub_date": "2006-07-31",
-  "constructor": "George Shayler"
+  "constructor": "George Shayler",
+  "crossref_url": "https://crosswordreference.com/puzzle/latimes/lat2006-07-31"
  },
  {
   "id": "new-york-times-2003-09-27",
@@ -17,7 +18,8 @@
   "work": "Sideways (2004)",
   "publication": "New York Times",
   "pub_date": "2003-09-27",
-  "constructor": "Craig Kasper"
+  "constructor": "Craig Kasper",
+  "crossref_url": "https://crosswordreference.com/puzzle/nytimes/nyt2003-09-27"
  },
  {
   "id": "courier-news-bridgewater-nj-2003-04-27",
@@ -46,7 +48,8 @@
   "work": "Glass Onion: A Knives Out Mystery (2022)",
   "publication": "New York Times",
   "pub_date": "2022-06-16",
-  "constructor": "Parker Higgins & Ross Trudeau"
+  "constructor": "Parker Higgins & Ross Trudeau",
+  "crossref_url": "https://crosswordreference.com/puzzle/nytimes/nyt2022-06-16"
  },
  {
   "id": "new-york-times-2022-06-17",
@@ -55,7 +58,8 @@
   "work": "Glass Onion: A Knives Out Mystery (2022)",
   "publication": "New York Times",
   "pub_date": "2022-06-17",
-  "constructor": "Pao Roy"
+  "constructor": "Pao Roy",
+  "crossref_url": "https://crosswordreference.com/puzzle/nytimes/nyt2022-06-17"
  },
  {
   "id": "new-york-times-2025-12-01",
@@ -66,7 +70,8 @@
   "air_date": "2026-03-12",
   "publication": "New York Times",
   "pub_date": "2025-12-01",
-  "constructor": "Hannah Binney"
+  "constructor": "Hannah Binney",
+  "crossref_url": "https://crosswordreference.com/puzzle/nytimes/nyt2025-12-01"
  },
  {
   "id": "new-york-times-2025-12-03",
@@ -77,7 +82,8 @@
   "air_date": "2026-03-12",
   "publication": "New York Times",
   "pub_date": "2025-12-03",
-  "constructor": "Victor Barocas"
+  "constructor": "Victor Barocas",
+  "crossref_url": "https://crosswordreference.com/puzzle/nytimes/nyt2025-12-03"
  },
  {
   "id": "new-york-times-2018-05-18",
@@ -87,7 +93,8 @@
   "publication": "New York Times",
   "pub_date": "2018-05-18",
   "constructor": "Ryan McCarty",
-  "note": "Real grid turned into a prop newspaper"
+  "note": "Real grid turned into a prop newspaper",
+  "crossref_url": "https://crosswordreference.com/puzzle/nytimes/nyt2018-05-18"
  },
  {
   "id": "modern-family",
@@ -132,6 +139,7 @@
   "pub_date": "2008-11-16",
   "constructor": "Merl Reagle",
   "puzzle_title": "Sounds Like Somebody I Know",
-  "note": "Grid created for the episode and run in the Times the same day"
+  "note": "Grid created for the episode and run in the Times the same day",
+  "crossref_url": "https://crosswordreference.com/puzzle/nytimes/nyt2008-11-16"
  }
 ]

@@ -8,6 +8,7 @@ exists.
 Published at https://centuryarcade.org/gridspotting/
 
 - `data/sightings.tsv`: one row per sighting (what was on screen, and the puzzle it matches,
+  with its id at The Cross(word) Reference, `crossref`, when it has one there,
   if any). `post` groups rows into pages.
 - `sightings.json`: the same data with a stable URL for each sighting, for indexers such as
   The Cross Reference.
