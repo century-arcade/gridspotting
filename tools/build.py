@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://centuryarcade.org/gridspotting/"
+TALK = "https://www.youtube.com/watch?v=KkjbiKiHQyE"
 
 CATEGORIES = {
     "real": "Real grids from real sources",
@@ -79,7 +80,7 @@ def page(title, body, depth):
 </head><body>
 <header><a class="site" href="{up}index.html">Gridspotting</a></header>
 <main>{body}</main>
-<footer>Grid spottings by Ben Zimmer, from his talk &ldquo;Adventures in Gridspotting,&rdquo;
+<footer>Grid spottings by Ben Zimmer, from his talk <a href="{TALK}">&ldquo;Adventures in Gridspotting&rdquo;</a>,
 Crossword Con, New York, Apr. 10, 2026. This is a placeholder put together from the talk
 slides; the write-ups are still to come.</footer>
 </body></html>
@@ -140,7 +141,9 @@ def main():
             f'{" &middot; " + e(matches) if matches else ""}</div></div></li>')
 
     intro = ("<h1>Gridspotting</h1><p>Crosswords seen on screen, in movies, TV and ads, "
-             "traced back to the puzzles they came from.</p>")
+             "traced back to the puzzles they came from. These are Ben Zimmer's, from his talk "
+             f'<a href="{TALK}">&ldquo;Adventures in Gridspotting&rdquo;</a> at Crossword Con 2026: '
+             "watch it for the stories behind them.</p>")
     (ROOT / "index.html").write_text(
         page("Gridspotting", intro + '<ul class="posts">' + "\n".join(index_items) + "</ul>", 0),
         encoding="utf8")
