@@ -28,7 +28,8 @@
   "air_date": "2004-03-21",
   "publication": "Courier-News (Bridgewater, NJ)",
   "pub_date": "2003-04-27",
-  "constructor": "Josiah Breward (Wayne Robert Williams)"
+  "constructor": "Josiah Breward (Wayne Robert Williams)",
+  "note": "Tribune Media Services"
  },
  {
   "id": "los-angeles-herald-1925-03-01",
@@ -85,7 +86,8 @@
   "work": "John Wick: Chapter 3 - Parabellum (2019)",
   "publication": "New York Times",
   "pub_date": "2018-05-18",
-  "constructor": "Ryan McCarty"
+  "constructor": "Ryan McCarty",
+  "note": "Real grid turned into a prop newspaper"
  },
  {
   "id": "modern-family",
@@ -129,6 +131,7 @@
   "publication": "New York Times",
   "pub_date": "2008-11-16",
   "constructor": "Merl Reagle",
-  "puzzle_title": "Sounds Like Somebody I Know"
+  "puzzle_title": "Sounds Like Somebody I Know",
+  "note": "Grid created for the episode and run in the Times the same day"
  }
 ]

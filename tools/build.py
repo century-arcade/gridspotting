@@ -128,7 +128,7 @@ def main():
             records.append({
                 "id": sid, "url": f"{BASE}posts/{key}.html#{sid}",
                 **{k: r[k] for k in ("category", "work", "episode", "air_date", "publication",
-                                     "pub_date", "constructor", "puzzle_title") if r[k]},
+                                     "pub_date", "constructor", "puzzle_title", "note") if r[k]},
             })
         (ROOT / "posts" / f"{key}.html").write_text(page(first["title"], "\n".join(body), 1), encoding="utf8")
 
