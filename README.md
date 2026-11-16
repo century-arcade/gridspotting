@@ -1,4 +1,4 @@
-# Gridspotting
+# #Gridspotting
 
 Crosswords spotted on screen, traced back to the puzzles they came from. The spottings are
 Ben Zimmer's, from his talk ["Adventures in Gridspotting"](https://www.youtube.com/watch?v=KkjbiKiHQyE) (Crossword Con, New York,

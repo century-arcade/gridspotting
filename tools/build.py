@@ -78,11 +78,10 @@ def page(title, body, depth):
 <title>{e(title)}</title>
 <link rel="stylesheet" href="{up}style.css">
 </head><body>
-<header><a class="site" href="{up}index.html">Gridspotting</a></header>
+<header><a class="site" href="{up}index.html">#Gridspotting</a></header>
 <main>{body}</main>
-<footer>Grid spottings by Ben Zimmer, from his talk <a href="{TALK}">&ldquo;Adventures in Gridspotting&rdquo;</a>,
-Crossword Con, New York, Apr. 10, 2026. This is a placeholder put together from the talk
-slides; the write-ups are still to come.</footer>
+<footer>From Ben Zimmer&rsquo;s talk <a href="{TALK}">&ldquo;Adventures in Gridspotting&rdquo;</a>,
+Crossword Con, New York, Apr. 10, 2026.</footer>
 </body></html>
 """
 
@@ -140,12 +139,12 @@ def main():
             f'<div class="meta">{e(CATEGORIES[first["category"]])}'
             f'{" &middot; " + e(matches) if matches else ""}</div></div></li>')
 
-    intro = ("<h1>Gridspotting</h1><p>Crosswords seen on screen, in movies, TV and ads, "
+    intro = ("<h1>#Gridspotting</h1><p>Crosswords seen on screen, in movies, TV and ads, "
              "traced back to the puzzles they came from. These are Ben Zimmer's, from his talk "
              f'<a href="{TALK}">&ldquo;Adventures in Gridspotting&rdquo;</a> at Crossword Con 2026: '
              "watch it for the stories behind them.</p>")
     (ROOT / "index.html").write_text(
-        page("Gridspotting", intro + '<ul class="posts">' + "\n".join(index_items) + "</ul>", 0),
+        page("#Gridspotting", intro + '<ul class="posts">' + "\n".join(index_items) + "</ul>", 0),
         encoding="utf8")
     (ROOT / "sightings.json").write_text(json.dumps(records, indent=1, ensure_ascii=False) + "\n", encoding="utf8")
     print(f"{len(posts)} posts, {len(records)} sightings")
